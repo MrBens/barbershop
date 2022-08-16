@@ -1,0 +1,156 @@
+*{
+    margin : 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    padding-left: 0;
+}
+li{
+    list-style-type: none;
+}
+
+/* * COLOR */
+.color-black{
+    color: black;
+}
+.color-white{
+    color: white;
+}
+
+/* * BACKGROUND COLOR*/
+.bg-yellow{
+    background-color: #F5F0DA;
+}
+.bg-blue{
+    background-color: #006071;
+}
+
+/* * DISPLAY */
+.d-flex{
+    display: flex;
+}
+.d-block{
+    display: block;
+}
+.d-inline-block{
+    display: inline-block;
+}
+
+/* * WIDTH */
+.w-90{
+    width : 90%;
+}
+
+/* *JUSTIFY CONTENT */
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+/* * ALIGN ITEMS */
+.align-center{
+    align-items: center;
+}
+
+/* * ALIGN SELF */
+.align-self-end{
+    align-self: flex-end;
+}
+
+/* *POSITION*/
+.pos-relative{
+    position: relative;
+}
+.pos-absolute{
+    position: absolute;
+}
+
+/* * MARGIN */
+.m-auto{
+    margin: auto;
+}
+.m-05{
+    margin: 0.5em;
+}
+
+/* ** MARGIN Y AXIS **/
+.my-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* ** MARGIN X AXIS **/
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ** MARGIN TOP **/
+.mt-10{
+    margin-top: 10em;
+}
+
+/* ** MARGIN RIGHT **/
+.mr-3{
+    margin-right: 3em;
+}
+
+/* ** MARGIN BOTTOM **/
+.mb-01{
+    margin-bottom: 0.1em;
+}
+.mb-2{
+    margin-bottom: 2em;
+}
+.mb-3{
+    margin-bottom: 3em;
+}
+
+/* ** PADDING Y AXIS **/
+.py-025{
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+.py-1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.py-3{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+/* * TEXT ALIGN */
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+/* * FONT WEIGHT */
+.font-bold{
+    font-weight: bold;
+}
+
+/* * FONT SIZE */
+.font-24{
+    font-size: 1.5em;
+}
+.font-28{
+    font-size: 1.75em;
+}
+.font-36{
+    font-size: 2.25em;
+}
+
+.row-cards{
+    display: flex;
+    justify-content: space-between;
+}
